@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.testapp.app"
+    versionCode = "10"
+    version     = "1.0.0">
+
+<name>TEST. Testapp</name>
+
+<description>
+    ewfwef ewfwefwefewf
+</description>
+
+<author>Tadapp</author>
+
+<plugin name='cordova-plugin-splashscreen' />
+<plugin name='cordova-plugin-inappbrowser' />
+
+<preference name='phonegap-version' value='cli-9.0.0' />
+
+<gap:plugin name='onesignal-cordova-plugin' spec='2.4.5' source='npm' />
+
+<preference name='android-build-tool' value='gradle' />
+    <preference name="android-targetSdkVersion" value="28" />
+<preference name='orientation' value='portrait' />
+
+<preference name="SplashMaintainAspectRatio" value="true" />
+<preference name="SplashScreenSpinnerColor" value="#007BFF" />
+
+
+<platform name="android">
+    <icon src="res/android/icon/7d5e7fe020af22d49bd804abd62b493b.png" density="ldpi" />
+    <icon src="res/android/icon/bc46dca638fa5e9d5f546ce4d772c149.png" density="mdpi" />
+    <icon src="res/android/icon/e67708dafca7e3ed7d858521be9f95c1.png" density="hdpi" />
+    <icon src="res/android/icon/0cad5ded37b7b52545ed565fc9e104a3.png" density="xhdpi" />
+    <icon src="res/android/icon/062c6f33433ff642b6b28dd30d5168bd.png" density="xxhdpi" />
+    <icon src="res/android/icon/6a30c9697a45ae37702ebd3ca7200f43.png" density="xxxhdpi" />
+
+    <splash src="res/android/screen/7388b0f76ea8a00312021f31ab93ed30.png" density="port-hdpi"/>
+    <splash src="res/android/screen/2347aaa521fa8141aa984e53b19a5210.png" density="port-ldpi"/>
+    <splash src="res/android/screen/1ea56b297919d445914e771d4f92050d.png" density="port-mdpi"/>
+    <splash src="res/android/screen/b5c1ddca6ba0679431ec2cde806c4f9f.png" density="port-xhdpi"/>
+</platform>
+
+<access origin='*'/>
+<plugin name='cordova-plugin-whitelist' />
+<allow-intent href='http://*/*'/>
+<allow-intent href='https://*/*'/>
+<allow-intent href='tel:*'/>
+<allow-intent href='sms:*'/>
+<allow-intent href='mailto:*'/>
+<allow-intent href='geo:*'/>
+
+</widget>
